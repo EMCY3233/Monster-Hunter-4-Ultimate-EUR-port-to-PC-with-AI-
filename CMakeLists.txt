@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(MH4UPCInfrastructure LANGUAGES NONE)
+find_package(Python3 3.11 REQUIRED COMPONENTS Interpreter)
+enable_testing()
+add_test(NAME profile_validation COMMAND "${Python3_EXECUTABLE}" -m unittest discover -s "${CMAKE_CURRENT_SOURCE_DIR}/tests" -v)
