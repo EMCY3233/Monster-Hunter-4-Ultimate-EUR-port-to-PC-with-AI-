@@ -19,3 +19,9 @@ Este archivo registra cambios incorporados en la rama correspondiente. Una entra
 ### Proyecto
 
 - El propietario identifica este repositorio como destino del trabajo de MH4U PC y autoriza la colaboración de los chats del grupo REA PC MH4U + Others.
+
+## Lector estructural C++17 — integración seleccionada
+
+- Lector independiente NCSD/NCCH, ExeFS, RomFS/IVFC y ARC19/zlib procedente de STT PR39, con permiso específico de traslado registrado y avisos conservados.
+- Compilación opcional y CI Debug/Release separadas de perfiles AOT; sin materiales comerciales.
+- La licencia general del código propio continúa pendiente de especificación; consultar PROVENANCE.md.

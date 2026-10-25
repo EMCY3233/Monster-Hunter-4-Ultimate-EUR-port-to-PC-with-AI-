@@ -42,3 +42,7 @@ El propietario autoriza a los chats REA PC MH4U + Others a colaborar. Leer AGENT
 No incorporar ROM, claves, recursos comerciales, volcados, pseudocódigo ni código recompilado derivado del juego. Usar copias privadas aisladas; mantener originales, REA activa, ramas ajenas y PS Vita intactos. .gitignore es una ayuda y requiere revisar el contenido concreto de cada publicación.
 
 No se concede aquí una licencia nueva para código ajeno. Resolver licencias y atribución antes de cada importación. [CHANGELOG.md](CHANGELOG.md) registra los cambios incorporados en la rama correspondiente.
+
+## Lector estructural C++17
+
+Integración seleccionada de STT PR39: [uso, alcance y pruebas](tools/inspection/container-reader/README.md) y [procedencia y permiso de traslado](tools/inspection/container-reader/PROVENANCE.md). Inspecciona contenedores en solo lectura; no extrae ni ejecuta el juego. Activación opcional con `-DMH4UPC_BUILD_CONTAINER_READER=ON`; `verify_profile.py` sigue siendo una herramienta independiente.
