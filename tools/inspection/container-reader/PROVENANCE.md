@@ -31,3 +31,45 @@ Registrar versiones y avisos aplicables si se distribuyen esas dependencias.
 El lector abre la imagen en solo lectura. No incluye ROM, claves, recursos,
 capturas, partidas, ejecutables comerciales ni código derivado del juego.
 verify_profile.py permanece separado y no interpreta estos contenedores.
+
+## Cierre de revisión de permisos — 25/10/2026
+
+Estado: **borrador; no listo para fusión por autorización incompleta**.
+
+La orden del usuario acredita permiso operativo para el traslado a este
+repositorio y su PR pública. No acredita por sí sola la titularidad o facultad
+para conceder derechos de todos los componentes. No se ha localizado una
+declaración que concrete modificación y redistribución previstas en fuente
+y binario, atribución, condiciones o excepciones de terceros. No presentar
+el permiso de traslado como licencia general ni como revisión jurídica cerrada.
+
+| Componente | Evidencia de autoría/titularidad | Términos y estado |
+|---|---|---|
+| Código, suite y CMake originales del lector | Doce commits Git con autor/committer Codex; PR presentada por EMCY3233. Titular humano/entidad no identificado mediante esos datos | Licencia explícita propia no localizada. Modificación y redistribución requieren aclaración del titular/representante |
+| Documentación propia de origen seleccionada | Misma cadena Git; README adaptado en destino | Conservar procedencia; no extender licencia de zlib al texto propio |
+| Integración CMake raíz y CI del destino | Cambio preparado para este proyecto con autorización humana | No sustituye permisos sobre el código importado |
+| zlib1.3.2 | Aviso Jean-loup Gailly y Mark Adler y archivo oficial fijado | Licencia zlib independiente; conservar aviso y marcar modificaciones de esa biblioteca si las hubiera |
+| OpenSSL Linux / BCrypt Windows | Dependencias del sistema, no vendorizadas | Registrar versión y términos del artefacto si se distribuyen; consultar THIRD_PARTY_NOTICES.md |
+
+La revisión de historial fijado no halló LICENSE/COPYING general, encabezados
+de licencia propia ni trailers de coautoría. Eso no prueba ausencia de derechos
+o colaboradores. RESEARCH del origen declara consulta de formatos sin copia;
+se conserva como declaración de procedencia, no certificación exhaustiva.
+
+### Declaración concreta pendiente
+
+El contacto inicial de procedencia es la persona responsable de la cuenta
+EMCY3233 que encargó/publicó la PR39; no se la declara titular verificado.
+Debe identificar al titular o representante facultado. Se solicita:
+
+- Identidad de persona/entidad y facultad para autorizar los archivos propios
+  de PR39 fijados en9174a7cac52ca6b51af7aafe5a70ac66c72f6be1.
+- Confirmación del alcance para publicación, copia, modificación y
+  redistribución en fuente/binario en este proyecto.
+- Licencia o permiso específico con condiciones, atribución y avisos;
+  indicar contribuciones o acuerdos de terceros que queden excluidos.
+
+No se añadirá una licencia unilateralmente ni se inferirán facultades del
+control de ambos repositorios. La consulta se dirige al usuario responsable
+del proyecto; no se han enviado mensajes a terceros no identificados.
+PR39 y PR4 permanecen intactas. No fusionar PR5 automáticamente.

@@ -31,3 +31,27 @@ Copyright notice:
 
   Jean-loup Gailly        Mark Adler
   jloup@gzip.org          madler@alumni.caltech.edu
+
+## Scope of this notice and system dependencies
+
+The zlib permission above applies to zlib only. It does not license the
+inspector's project code, tests, build files or documentation. Their
+attribution and authorization review is recorded in PROVENANCE.md.
+No general license is assigned to that code by this notice.
+
+The Linux build links to the system OpenSSL::Crypto implementation.
+The reviewed CI used OpenSSL3.0.13. No OpenSSL source or library is vendored
+or distributed by this source-only pull request. OpenSSL3.x is distributed
+under Apache License2.0; any future distribution of its files must preserve
+the applicable upstream license and notices for the actual selected version.
+Upstream license reference:
+https://github.com/openssl/openssl/blob/openssl-3.0.13/LICENSE.txt
+
+Windows links to BCrypt provided by the Windows SDK/system. SDK and runtime
+files are not included in this pull request; this notice does not grant
+redistribution rights to those files. Check the applicable terms before
+packaging binaries or redistributable dependencies.
+
+CMake, compilers and Python are build/test tools and are not bundled here.
+zlib's fixed source and complete upstream LICENSE remain in the build
+dependency directory. No game data or game-derived code is included.
