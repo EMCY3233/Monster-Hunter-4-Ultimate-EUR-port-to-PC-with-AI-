@@ -10,6 +10,10 @@ Esta base proporciona inspección local de perfiles, pruebas sintéticas y un pu
 
 Ruta principal: MH4UltimateDC + REA/Ghidra + Azahar. 3dsrecomp/Zakuro es alternativa ante un bloqueo demostrado. Consultar [selección STT y licencias](docs/research/stt-inventory.md) antes de reutilizar implementaciones.
 
+## Resultados revisados
+
+Consultar el [estado de laboratorio del 25-10-2026](docs/validation/laboratory-status-2026-10-25.md): función EUR real validada de forma acotada, menú original y varias selecciones comprobadas en runtime híbrido. Son experimentos privados revisados; este repositorio no distribuye el runtime ni un port jugable. Se distinguen los resultados JIT, híbridos y los objetivos AOT pendientes.
+
 ## Organización
 
 - tools/inspection: validación original de manifiestos y artefactos locales.

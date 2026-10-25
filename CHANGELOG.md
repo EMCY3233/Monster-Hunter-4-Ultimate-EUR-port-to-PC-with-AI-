@@ -6,6 +6,8 @@ Este archivo registra cambios incorporados en la rama correspondiente. Una entra
 
 ### Añadido
 
+- Resumen original de resultados de laboratorio revisados el 25-10-2026, con separación JIT/híbrido, límites de verificación y tareas pendientes. Publicar este documento no incorpora el runtime privado ni sus materiales.
+
 - Infraestructura original de inspección local de perfiles y artefactos, con casos sintéticos y comprobaciones automatizadas Python/CTest.
 - Guías de colaboración, aislamiento, validación, arquitectura y selección de propuestas STT sin importar su implementación.
 - Exclusiones para materiales privados y archivos derivados; workflow de pruebas sin entradas comerciales.
