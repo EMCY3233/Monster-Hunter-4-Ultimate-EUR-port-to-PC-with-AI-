@@ -32,44 +32,40 @@ El lector abre la imagen en solo lectura. No incluye ROM, claves, recursos,
 capturas, partidas, ejecutables comerciales ni código derivado del juego.
 verify_profile.py permanece separado y no interpreta estos contenedores.
 
-## Cierre de revisión de permisos — 25/10/2026
+## Declaración del solicitante y alcance autorizado — 25/10/2026
 
-Estado: **borrador; no listo para fusión por autorización incompleta**.
+El usuario responsable de este proyecto confirmó: «se creo para mi al ordenar
+la creacion del port del juego a C++». Se registra como declaración de que
+encargó el lector y fue creado para él; no se atribuye titularidad a la
+herramienta Codex ni se presenta una determinación jurídica independiente.
 
-La orden del usuario acredita permiso operativo para el traslado a este
-repositorio y su PR pública. No acredita por sí sola la titularidad o facultad
-para conceder derechos de todos los componentes. No se ha localizado una
-declaración que concrete modificación y redistribución previstas en fuente
-y binario, atribución, condiciones o excepciones de terceros. No presentar
-el permiso de traslado como licencia general ni como revisión jurídica cerrada.
+Esta aclaración se lee junto con sus órdenes previas de usar/trasladar el
+lector a este repositorio, «doy permisos» y «publica general». Se conserva
+como autorización específica documentada para incorporar y publicar la
+contribución en este proyecto y efectuar las adaptaciones de integración
+solicitadas. No se inventa una licencia estándar, una cesión de terceros
+ni un permiso universal de sublicencia o reutilización ajena al proyecto.
+La licencia pública general continúa sin especificarse.
 
-| Componente | Evidencia de autoría/titularidad | Términos y estado |
+El bloqueo de identificar a Codex como supuesto titular queda corregido:
+Codex figura como herramienta/autor Git; el solicitante humano declara haber
+encargado y recibido el trabajo y autoriza la incorporación/publicación.
+Esta revisión acepta esa declaración para el alcance concreto solicitado,
+sin garantizar derechos sobre materiales de terceros no declarados.
+
+| Componente | Procedencia / autorización | Condiciones conservadas |
 |---|---|---|
-| Código, suite y CMake originales del lector | Doce commits Git con autor/committer Codex; PR presentada por EMCY3233. Titular humano/entidad no identificado mediante esos datos | Licencia explícita propia no localizada. Modificación y redistribución requieren aclaración del titular/representante |
-| Documentación propia de origen seleccionada | Misma cadena Git; README adaptado en destino | Conservar procedencia; no extender licencia de zlib al texto propio |
-| Integración CMake raíz y CI del destino | Cambio preparado para este proyecto con autorización humana | No sustituye permisos sobre el código importado |
-| zlib1.3.2 | Aviso Jean-loup Gailly y Mark Adler y archivo oficial fijado | Licencia zlib independiente; conservar aviso y marcar modificaciones de esa biblioteca si las hubiera |
-| OpenSSL Linux / BCrypt Windows | Dependencias del sistema, no vendorizadas | Registrar versión y términos del artefacto si se distribuyen; consultar THIRD_PARTY_NOTICES.md |
+| Código, suite y CMake del lector | STT PR39 en el commit fijado; trabajo encargado por el usuario para él y traslado/publicación autorizados en este proyecto | Mantener procedencia; no asignar licencia general unilateralmente |
+| README adaptado e integración del destino | Modificaciones necesarias para la integración solicitada | Identificar adaptaciones y preservar atribuciones originales |
+| zlib1.3.2 | Gailly/Adler; licencia zlib independiente | Conservar aviso y origen; marcar modificaciones de la biblioteca si las hubiera |
+| OpenSSL Linux / BCrypt Windows | Dependencias del sistema, no vendorizadas | Aplicar términos de la versión realmente distribuida si en el futuro se empaquetan |
 
-La revisión de historial fijado no halló LICENSE/COPYING general, encabezados
-de licencia propia ni trailers de coautoría. Eso no prueba ausencia de derechos
-o colaboradores. RESEARCH del origen declara consulta de formatos sin copia;
-se conserva como declaración de procedencia, no certificación exhaustiva.
+Se conserva la atribución factual a STT PR39 y a su historial Git. No se añade
+un copyright nominal no declarado por el usuario. Las autorizaciones del
+proyecto no alcanzan ROM, claves, recursos comerciales, código derivado del
+juego ni implementaciones ajenas. La fuente declarada en RESEARCH del origen
+indica consulta de formatos sin copia; no equivale a garantía exhaustiva.
 
-### Declaración concreta pendiente
-
-El contacto inicial de procedencia es la persona responsable de la cuenta
-EMCY3233 que encargó/publicó la PR39; no se la declara titular verificado.
-Debe identificar al titular o representante facultado. Se solicita:
-
-- Identidad de persona/entidad y facultad para autorizar los archivos propios
-  de PR39 fijados en9174a7cac52ca6b51af7aafe5a70ac66c72f6be1.
-- Confirmación del alcance para publicación, copia, modificación y
-  redistribución en fuente/binario en este proyecto.
-- Licencia o permiso específico con condiciones, atribución y avisos;
-  indicar contribuciones o acuerdos de terceros que queden excluidos.
-
-No se añadirá una licencia unilateralmente ni se inferirán facultades del
-control de ambos repositorios. La consulta se dirige al usuario responsable
-del proyecto; no se han enviado mensajes a terceros no identificados.
-PR39 y PR4 permanecen intactas. No fusionar PR5 automáticamente.
+La aclaración sustituye el bloqueo documental anterior para esta incorporación.
+La revisión técnica y la CI deben corresponder al commit final. PR39 y PR4
+permanecen intactas; no fusionar PR5 automáticamente.
